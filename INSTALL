@@ -1,1 +1,40 @@
-INSTALLATION INSTRUCTIONS HERE
+/*********************************************************
+*
+*  Installation v0.1
+*  Clinical Expertise Data Demonstrator
+*  Updated: 07/11/2012
+*
+*********************************************************/
+
+Step 1.  Get the Sources
+
+This project builds as a third level of the VIVO Project. Other
+third level projects that use VIVO include Cornell's DataStaR.
+To build this project as a developer you will need the source 
+code for VIVO and VITRO.  Download the sources into directories
+of your choosing.  The default location in deploy.properties is
+vivo-code and vitro-code on the same level as your downloaded
+ctsaconnect.cedd.  The locations of VIVO and VITRO are
+
+ * VIVO  --> svn.code.sf.net/p/vivo/code
+ * VITRO --> svn.code.sf.net/p/vivo/vitro/code
+
+
+Step 2. Setup VIVO
+
+Follow the instructions for setting up VIVO.  You'll need
+
+ * MySQL
+ * Tomcat6 or Tomcat7
+ * ANT
+ * Java
+
+Step 3. Build
+
+You'll use ant all to build the project.  You'll want to 
+build with sudo as the user for tomcat (Tomcat6-->tomcat6, 
+Tomcat7-->tomcat7).
+
+sudo -u tomcatuser ant all
+
+
