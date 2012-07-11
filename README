@@ -3,5 +3,21 @@
 *  CTSA Connect Clinical Expertise Data Demonstrator
 *  Author:	Stephen V. Williams (svwilliams@gmail.com)
 *		Christopher Barnes (senrabc@gmail.com)
+*  Last Update: 07-11-2012
 *
 ********************************************************/
+
+This project is an example of using clinical expertise 
+information in a researcher profile system to bring 
+researchers and clinicians together.
+
+This project uses various other projects including:
+  * vitro - svn.code.sf.net/p/vivo/vitro/code
+  * vivo - svn.code.sf.net/p/vivo/code
+  * vivo harvester - https://github.com/vivo-project/VIVO-Harvester.git
+  * ctsaconnect - https://code.google.com/p/ctsaconnect/
+  * isf - http://connect-isf.googlecode.com/svn
+
+You should get the source code from the named projects
+and follow the INSTALL document to set up CEDD
+
