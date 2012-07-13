@@ -38,6 +38,7 @@
 
 	<xsl:template match="owl:Class">
 	  <rdf:resource rdf:about="{@rdf:about}">
+	  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	  <rdfs:label><xsl:value-of select="fn:substring-after(rdfs:label,'ICD9 code for ')" /></rdfs:label> <!-- Pretty Labels -->
 	  <!--Regular Labels <rdfs:label><xsl:value-of select="rdfs:label" /></rdfs:label>--> <!-- Regular Lables -->
 	  <icd9:code><xsl:value-of select="http:has_code" /></icd9:code>

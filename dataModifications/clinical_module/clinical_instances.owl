@@ -1,0 +1,932 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/arg/clinical_instances.owl#"
+     xml:base="http://purl.obolibrary.org/obo/arg/clinical_instances.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/arg/clinical_instances.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ARG_0000495"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000365 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/ARG_0000365"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ARG_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ARG_0000037"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ARG_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ARG_0000130"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ARG_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ARG_0000140"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/cptcode/76376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/cptcode/91120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/icdcode/555_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/arg/icdcode/555_1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/01162fa4-1d60-4c5a-b5ae-3a23d2ba1b7a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/01162fa4-1d60-4c5a-b5ae-3a23d2ba1b7a">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_c3905a0d-4fd6-4856-bce6-0a75e6a34682</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04-11-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">01162fa4-1d60-4c5a-b5ae-3a23d2ba1b7a</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/6afb75a9-63d6-4008-b3fd-6765af013c35"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/815c6367-92c0-4f41-9870-1ce253872873"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/8ddd0e20-b39c-4068-8904-621b4802be2f"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/c3905a0d-4fd6-4856-bce6-0a75e6a34682"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/d8532751-ea15-4116-b980-978500afd430"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/03e10b24-9bd4-4919-b84b-06d3a4770ad0 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/03e10b24-9bd4-4919-b84b-06d3a4770ad0">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234568_patient_df8611a4-8510-4b02-87f6-19c63042456b</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">07-10-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">03e10b24-9bd4-4919-b84b-06d3a4770ad0</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234568"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/a4ff001d-3cfc-41ba-8365-0abf03e89d01"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/df8611a4-8510-4b02-87f6-19c63042456b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/0495ca62-fb79-445e-a5d0-72c43174d386 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/0495ca62-fb79-445e-a5d0-72c43174d386">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_19399924-db59-44e5-967a-f56bb2ab1861</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">10-03-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">0495ca62-fb79-445e-a5d0-72c43174d386</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/19399924-db59-44e5-967a-f56bb2ab1861"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/6c7d8cba-9a37-4475-9cb2-8674e0ddb4c0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/0957ca6f-07cc-454e-8ac5-0f3436468b4c -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/0957ca6f-07cc-454e-8ac5-0f3436468b4c">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/icdcode/555_1"/>
+        <rdfs:label xml:lang="en">icd_0957ca6f-07cc-454e-8ac5-0f3436468b4c_diagnosis_6afb75a9-63d6-4008-b3fd-6765af013c35</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/1234567 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/1234567">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000130"/>
+        <rdfs:label xml:lang="en">practiotioner_1234567</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/1234568 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/1234568">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000130"/>
+        <rdfs:label xml:lang="en">practiotioner_1234568</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/19399924-db59-44e5-967a-f56bb2ab1861 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/19399924-db59-44e5-967a-f56bb2ab1861">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_19399924-db59-44e5-967a-f56bb2ab1861</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">19399924-db59-44e5-967a-f56bb2ab1861</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/27e9ff7d-dd46-4d88-8445-9bf5e74f5233 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/27e9ff7d-dd46-4d88-8445-9bf5e74f5233">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_27e9ff7d-dd46-4d88-8445-9bf5e74f5233</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">27e9ff7d-dd46-4d88-8445-9bf5e74f5233</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/28db85b9-dc84-4246-9637-2e48e6feb80b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/28db85b9-dc84-4246-9637-2e48e6feb80b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_28db85b9-dc84-4246-9637-2e48e6feb80b</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">28db85b9-dc84-4246-9637-2e48e6feb80b</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/2b3f0917-1b6c-40d5-ba84-6195c4f58dcd -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/2b3f0917-1b6c-40d5-ba84-6195c4f58dcd">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_2b3f0917-1b6c-40d5-ba84-6195c4f58dcd_order_93582695-12d0-4129-a089-c53cef634af9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/2d1246de-ce53-40c8-8476-1fe52c7a9588 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/2d1246de-ce53-40c8-8476-1fe52c7a9588">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234568_patient_e14bfd9b-e600-4739-ad2f-cd3f4e871830</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">16-01-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">2d1246de-ce53-40c8-8476-1fe52c7a9588</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234568"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/b8e4cd6f-7786-456d-8335-433b7c5812c0"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/e14bfd9b-e600-4739-ad2f-cd3f4e871830"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/2d718eee-e4ba-4cde-9bc2-5df3396f5d02 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/2d718eee-e4ba-4cde-9bc2-5df3396f5d02">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_2d718eee-e4ba-4cde-9bc2-5df3396f5d02_order_2d97f5e2-2471-4c55-a359-1335880ff1ca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/2d97f5e2-2471-4c55-a359-1335880ff1ca -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/2d97f5e2-2471-4c55-a359-1335880ff1ca">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_2d97f5e2-2471-4c55-a359-1335880ff1ca</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/2d718eee-e4ba-4cde-9bc2-5df3396f5d02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/30cded3c-90ea-479a-9350-052d59078bda -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/30cded3c-90ea-479a-9350-052d59078bda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_30cded3c-90ea-479a-9350-052d59078bda_order_fec59684-82c4-463b-9e15-6dd6d5a39286</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/41287d1c-c6a9-4b37-9e4a-6a53ebd72824 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/41287d1c-c6a9-4b37-9e4a-6a53ebd72824">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_41287d1c-c6a9-4b37-9e4a-6a53ebd72824_order_bb09d702-dc63-4d1b-b0e5-dc91beef0d0b</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/4443a2c2-2242-4d0b-9cec-ac0f601f4504 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/4443a2c2-2242-4d0b-9cec-ac0f601f4504">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_4443a2c2-2242-4d0b-9cec-ac0f601f4504_order_4ca96d6d-e6f2-466b-922d-d7c242fd5e24</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/47a147da-3ed5-4e10-b878-ae3daffb892f -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/47a147da-3ed5-4e10-b878-ae3daffb892f">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_47a147da-3ed5-4e10-b878-ae3daffb892f</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">47a147da-3ed5-4e10-b878-ae3daffb892f</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/4ca96d6d-e6f2-466b-922d-d7c242fd5e24 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/4ca96d6d-e6f2-466b-922d-d7c242fd5e24">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_4ca96d6d-e6f2-466b-922d-d7c242fd5e24</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/4443a2c2-2242-4d0b-9cec-ac0f601f4504"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/52646832-bfa4-4097-9766-d35786bf4fd7 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/52646832-bfa4-4097-9766-d35786bf4fd7">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_52646832-bfa4-4097-9766-d35786bf4fd7_order_b8e4cd6f-7786-456d-8335-433b7c5812c0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/52d826bc-4dee-4a80-add1-de64d358f29b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/52d826bc-4dee-4a80-add1-de64d358f29b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_52d826bc-4dee-4a80-add1-de64d358f29b_order_8a41567e-fe2a-4175-95d4-d841560771a3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/56f65c44-1f7d-493c-847a-9e834a0271ed -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/56f65c44-1f7d-493c-847a-9e834a0271ed">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_56f65c44-1f7d-493c-847a-9e834a0271ed</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/b6874e67-2bfb-40e6-ab86-86ded77c4a69"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/62dcfb10-f22e-42bd-8ce1-f899b05513d6 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/62dcfb10-f22e-42bd-8ce1-f899b05513d6">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_62dcfb10-f22e-42bd-8ce1-f899b05513d6_order_65c73ec2-c4ba-4a85-9868-8d8d1d0c592a</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/62fc6070-b415-49d3-97b6-ef6d28a99bf4 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/62fc6070-b415-49d3-97b6-ef6d28a99bf4">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_62fc6070-b415-49d3-97b6-ef6d28a99bf4</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/ee3ba998-1897-4a6e-990b-fc8283d4c85b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/632c3c4d-fdaa-4cf6-aca1-be98534461b5 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/632c3c4d-fdaa-4cf6-aca1-be98534461b5">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_c7a665d3-df2a-4889-92a8-b34a691b4373</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">22-11-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">632c3c4d-fdaa-4cf6-aca1-be98534461b5</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/56f65c44-1f7d-493c-847a-9e834a0271ed"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/6a13c1d7-da2a-4d8e-af3f-a2c327c8b1b2"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/76dbcbb6-1dae-4a38-9686-fc757fd974fa"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/c7a665d3-df2a-4889-92a8-b34a691b4373"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/65c73ec2-c4ba-4a85-9868-8d8d1d0c592a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/65c73ec2-c4ba-4a85-9868-8d8d1d0c592a">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_65c73ec2-c4ba-4a85-9868-8d8d1d0c592a</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/62dcfb10-f22e-42bd-8ce1-f899b05513d6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/6a13c1d7-da2a-4d8e-af3f-a2c327c8b1b2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/6a13c1d7-da2a-4d8e-af3f-a2c327c8b1b2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_6a13c1d7-da2a-4d8e-af3f-a2c327c8b1b2</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/70458960-ae53-4418-8fa7-3949339c97ec"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/6afb75a9-63d6-4008-b3fd-6765af013c35 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/6afb75a9-63d6-4008-b3fd-6765af013c35">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000037"/>
+        <rdfs:label xml:lang="en">diagnosis_6afb75a9-63d6-4008-b3fd-6765af013c35</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/0957ca6f-07cc-454e-8ac5-0f3436468b4c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/6c7d8cba-9a37-4475-9cb2-8674e0ddb4c0 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/6c7d8cba-9a37-4475-9cb2-8674e0ddb4c0">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_6c7d8cba-9a37-4475-9cb2-8674e0ddb4c0</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/f37123f7-a669-44e6-b56e-36be6a4c3efa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/6cf851dc-72b9-4a9c-9db1-222519813649 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/6cf851dc-72b9-4a9c-9db1-222519813649">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234568_patient_7e2012e9-5ead-481d-887a-77f130b8168c</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">30-12-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">6cf851dc-72b9-4a9c-9db1-222519813649</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234568"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/7e2012e9-5ead-481d-887a-77f130b8168c"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/e6894413-b529-4963-8626-665f08fdaa5a"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/6f93aeda-b27c-4556-9e46-b0b70222e2b7 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/6f93aeda-b27c-4556-9e46-b0b70222e2b7">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/icdcode/555_1"/>
+        <rdfs:label xml:lang="en">icd_6f93aeda-b27c-4556-9e46-b0b70222e2b7_diagnosis_d8532751-ea15-4116-b980-978500afd430</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/70458960-ae53-4418-8fa7-3949339c97ec -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/70458960-ae53-4418-8fa7-3949339c97ec">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_70458960-ae53-4418-8fa7-3949339c97ec_order_6a13c1d7-da2a-4d8e-af3f-a2c327c8b1b2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/717563bf-9236-404e-b522-02bdf74126b5 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/717563bf-9236-404e-b522-02bdf74126b5">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_717563bf-9236-404e-b522-02bdf74126b5_order_e6894413-b529-4963-8626-665f08fdaa5a</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/71cd137f-c0a1-42c1-bfbb-47234eb61a22 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/71cd137f-c0a1-42c1-bfbb-47234eb61a22">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_71cd137f-c0a1-42c1-bfbb-47234eb61a22</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">71cd137f-c0a1-42c1-bfbb-47234eb61a22</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/76dbcbb6-1dae-4a38-9686-fc757fd974fa -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/76dbcbb6-1dae-4a38-9686-fc757fd974fa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_76dbcbb6-1dae-4a38-9686-fc757fd974fa</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/9306a68b-6f0b-4959-a19f-c0a3e9443cff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/7e2012e9-5ead-481d-887a-77f130b8168c -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/7e2012e9-5ead-481d-887a-77f130b8168c">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_7e2012e9-5ead-481d-887a-77f130b8168c</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">7e2012e9-5ead-481d-887a-77f130b8168c</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/7f29d948-5b19-4711-9742-18e34f31940d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/7f29d948-5b19-4711-9742-18e34f31940d">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_28db85b9-dc84-4246-9637-2e48e6feb80b</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">01-09-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">7f29d948-5b19-4711-9742-18e34f31940d</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/28db85b9-dc84-4246-9637-2e48e6feb80b"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/62fc6070-b415-49d3-97b6-ef6d28a99bf4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/815c6367-92c0-4f41-9870-1ce253872873 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/815c6367-92c0-4f41-9870-1ce253872873">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000037"/>
+        <rdfs:label xml:lang="en">diagnosis_815c6367-92c0-4f41-9870-1ce253872873</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/9d32855e-6e29-422f-87e7-8c71a0c8db7d"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/8a41567e-fe2a-4175-95d4-d841560771a3 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/8a41567e-fe2a-4175-95d4-d841560771a3">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_8a41567e-fe2a-4175-95d4-d841560771a3</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/52d826bc-4dee-4a80-add1-de64d358f29b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/8ddd0e20-b39c-4068-8904-621b4802be2f -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/8ddd0e20-b39c-4068-8904-621b4802be2f">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000037"/>
+        <rdfs:label xml:lang="en">diagnosis_8ddd0e20-b39c-4068-8904-621b4802be2f</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/8e23c3af-7888-4613-b6f0-ba3b7bee6ac1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/8e23c3af-7888-4613-b6f0-ba3b7bee6ac1 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/8e23c3af-7888-4613-b6f0-ba3b7bee6ac1">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/icdcode/555_1"/>
+        <rdfs:label xml:lang="en">icd_8e23c3af-7888-4613-b6f0-ba3b7bee6ac1_diagnosis_8ddd0e20-b39c-4068-8904-621b4802be2f</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/8f562759-4db5-4ab2-935c-17cd76adf5b7 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/8f562759-4db5-4ab2-935c-17cd76adf5b7">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234568_patient_47a147da-3ed5-4e10-b878-ae3daffb892f</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">04-01-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">8f562759-4db5-4ab2-935c-17cd76adf5b7</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234568"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/47a147da-3ed5-4e10-b878-ae3daffb892f"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/b26835c0-2db8-4ded-937b-1ab1cb50f652"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/9306a68b-6f0b-4959-a19f-c0a3e9443cff -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/9306a68b-6f0b-4959-a19f-c0a3e9443cff">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_9306a68b-6f0b-4959-a19f-c0a3e9443cff_order_76dbcbb6-1dae-4a38-9686-fc757fd974fa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/93582695-12d0-4129-a089-c53cef634af9 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/93582695-12d0-4129-a089-c53cef634af9">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_93582695-12d0-4129-a089-c53cef634af9</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/2b3f0917-1b6c-40d5-ba84-6195c4f58dcd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/9d32855e-6e29-422f-87e7-8c71a0c8db7d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/9d32855e-6e29-422f-87e7-8c71a0c8db7d">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/icdcode/555_1"/>
+        <rdfs:label xml:lang="en">icd_9d32855e-6e29-422f-87e7-8c71a0c8db7d_diagnosis_815c6367-92c0-4f41-9870-1ce253872873</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/9e0ef148-7f4d-440e-b159-8cf6a54b40ee -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/9e0ef148-7f4d-440e-b159-8cf6a54b40ee">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_9e0ef148-7f4d-440e-b159-8cf6a54b40ee_order_a738d1f0-1a05-48f5-b328-bac3c42798a6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/a4adb79f-9bdd-411f-92a1-fb1f83ca3337 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/a4adb79f-9bdd-411f-92a1-fb1f83ca3337">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_71cd137f-c0a1-42c1-bfbb-47234eb61a22</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">06-09-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">a4adb79f-9bdd-411f-92a1-fb1f83ca3337</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/65c73ec2-c4ba-4a85-9868-8d8d1d0c592a"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/71cd137f-c0a1-42c1-bfbb-47234eb61a22"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/a4ff001d-3cfc-41ba-8365-0abf03e89d01 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/a4ff001d-3cfc-41ba-8365-0abf03e89d01">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_a4ff001d-3cfc-41ba-8365-0abf03e89d01</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/b5c83db8-0653-48f9-9f85-8e79bf7134eb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/a738d1f0-1a05-48f5-b328-bac3c42798a6 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/a738d1f0-1a05-48f5-b328-bac3c42798a6">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_a738d1f0-1a05-48f5-b328-bac3c42798a6</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/9e0ef148-7f4d-440e-b159-8cf6a54b40ee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b1e9efe9-87f1-4c9e-9263-b8bb49c451da -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b1e9efe9-87f1-4c9e-9263-b8bb49c451da">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_b1e9efe9-87f1-4c9e-9263-b8bb49c451da</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">b1e9efe9-87f1-4c9e-9263-b8bb49c451da</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b22d0630-c8d1-4310-90c4-b10cd5f659cb -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b22d0630-c8d1-4310-90c4-b10cd5f659cb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234568_patient_bed0cc3a-4fca-42d4-8723-a918c092349d</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">18-04-2009</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">b22d0630-c8d1-4310-90c4-b10cd5f659cb</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234568"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/2d97f5e2-2471-4c55-a359-1335880ff1ca"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/4ca96d6d-e6f2-466b-922d-d7c242fd5e24"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/93582695-12d0-4129-a089-c53cef634af9"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/bed0cc3a-4fca-42d4-8723-a918c092349d"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/e95da378-f554-45ec-b4a0-fbe30681b28e"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/f0fba5a5-1d7c-475b-9136-d371914f4de9"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/fec59684-82c4-463b-9e15-6dd6d5a39286"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b26835c0-2db8-4ded-937b-1ab1cb50f652 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b26835c0-2db8-4ded-937b-1ab1cb50f652">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_b26835c0-2db8-4ded-937b-1ab1cb50f652</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/cfbfa4cc-28ab-483d-b00a-af2d5efd4d5b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b5c83db8-0653-48f9-9f85-8e79bf7134eb -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b5c83db8-0653-48f9-9f85-8e79bf7134eb">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_b5c83db8-0653-48f9-9f85-8e79bf7134eb_order_a4ff001d-3cfc-41ba-8365-0abf03e89d01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b6874e67-2bfb-40e6-ab86-86ded77c4a69 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b6874e67-2bfb-40e6-ab86-86ded77c4a69">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_b6874e67-2bfb-40e6-ab86-86ded77c4a69_order_56f65c44-1f7d-493c-847a-9e834a0271ed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/b8e4cd6f-7786-456d-8335-433b7c5812c0 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/b8e4cd6f-7786-456d-8335-433b7c5812c0">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_b8e4cd6f-7786-456d-8335-433b7c5812c0</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/52646832-bfa4-4097-9766-d35786bf4fd7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/bb09d702-dc63-4d1b-b0e5-dc91beef0d0b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/bb09d702-dc63-4d1b-b0e5-dc91beef0d0b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_bb09d702-dc63-4d1b-b0e5-dc91beef0d0b</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/41287d1c-c6a9-4b37-9e4a-6a53ebd72824"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/bed0cc3a-4fca-42d4-8723-a918c092349d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/bed0cc3a-4fca-42d4-8723-a918c092349d">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_bed0cc3a-4fca-42d4-8723-a918c092349d</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">bed0cc3a-4fca-42d4-8723-a918c092349d</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/c0c88a99-9fc1-414b-8e6a-aa75a59f4579 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/c0c88a99-9fc1-414b-8e6a-aa75a59f4579">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_27e9ff7d-dd46-4d88-8445-9bf5e74f5233</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">05-05-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">c0c88a99-9fc1-414b-8e6a-aa75a59f4579</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/27e9ff7d-dd46-4d88-8445-9bf5e74f5233"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/bb09d702-dc63-4d1b-b0e5-dc91beef0d0b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/c3905a0d-4fd6-4856-bce6-0a75e6a34682 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/c3905a0d-4fd6-4856-bce6-0a75e6a34682">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_c3905a0d-4fd6-4856-bce6-0a75e6a34682</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">c3905a0d-4fd6-4856-bce6-0a75e6a34682</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/c7a665d3-df2a-4889-92a8-b34a691b4373 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/c7a665d3-df2a-4889-92a8-b34a691b4373">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_c7a665d3-df2a-4889-92a8-b34a691b4373</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">c7a665d3-df2a-4889-92a8-b34a691b4373</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/cca35e17-4ca6-4d61-b895-9b9a567f71a6 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/cca35e17-4ca6-4d61-b895-9b9a567f71a6">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_b1e9efe9-87f1-4c9e-9263-b8bb49c451da</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">19-02-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">cca35e17-4ca6-4d61-b895-9b9a567f71a6</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/8a41567e-fe2a-4175-95d4-d841560771a3"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/b1e9efe9-87f1-4c9e-9263-b8bb49c451da"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/cd474990-3483-4ae2-ab65-ea1a8eeea684 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/cd474990-3483-4ae2-ab65-ea1a8eeea684">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_cd474990-3483-4ae2-ab65-ea1a8eeea684_order_f0fba5a5-1d7c-475b-9136-d371914f4de9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/cfbfa4cc-28ab-483d-b00a-af2d5efd4d5b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/cfbfa4cc-28ab-483d-b00a-af2d5efd4d5b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_cfbfa4cc-28ab-483d-b00a-af2d5efd4d5b_order_b26835c0-2db8-4ded-937b-1ab1cb50f652</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/d8532751-ea15-4116-b980-978500afd430 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/d8532751-ea15-4116-b980-978500afd430">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000037"/>
+        <rdfs:label xml:lang="en">diagnosis_d8532751-ea15-4116-b980-978500afd430</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/6f93aeda-b27c-4556-9e46-b0b70222e2b7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/df8611a4-8510-4b02-87f6-19c63042456b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/df8611a4-8510-4b02-87f6-19c63042456b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_df8611a4-8510-4b02-87f6-19c63042456b</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">df8611a4-8510-4b02-87f6-19c63042456b</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/e14bfd9b-e600-4739-ad2f-cd3f4e871830 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/e14bfd9b-e600-4739-ad2f-cd3f4e871830">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000051"/>
+        <rdfs:label xml:lang="en">patient_e14bfd9b-e600-4739-ad2f-cd3f4e871830</rdfs:label>
+        <obo:ARG_0000495 xml:lang="en">e14bfd9b-e600-4739-ad2f-cd3f4e871830</obo:ARG_0000495>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/e6894413-b529-4963-8626-665f08fdaa5a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/e6894413-b529-4963-8626-665f08fdaa5a">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_e6894413-b529-4963-8626-665f08fdaa5a</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/717563bf-9236-404e-b522-02bdf74126b5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/e95da378-f554-45ec-b4a0-fbe30681b28e -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/e95da378-f554-45ec-b4a0-fbe30681b28e">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_e95da378-f554-45ec-b4a0-fbe30681b28e</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/ee686a12-9ec5-4725-bc26-e3dedc9d3e95"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/ee3ba998-1897-4a6e-990b-fc8283d4c85b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/ee3ba998-1897-4a6e-990b-fc8283d4c85b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_ee3ba998-1897-4a6e-990b-fc8283d4c85b_order_62fc6070-b415-49d3-97b6-ef6d28a99bf4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/ee686a12-9ec5-4725-bc26-e3dedc9d3e95 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/ee686a12-9ec5-4725-bc26-e3dedc9d3e95">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/76376"/>
+        <rdfs:label xml:lang="en">cpt_ee686a12-9ec5-4725-bc26-e3dedc9d3e95_order_e95da378-f554-45ec-b4a0-fbe30681b28e</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/f0fba5a5-1d7c-475b-9136-d371914f4de9 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/f0fba5a5-1d7c-475b-9136-d371914f4de9">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_f0fba5a5-1d7c-475b-9136-d371914f4de9</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/cd474990-3483-4ae2-ab65-ea1a8eeea684"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/f37123f7-a669-44e6-b56e-36be6a4c3efa -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/f37123f7-a669-44e6-b56e-36be6a4c3efa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/arg/cptcode/91120"/>
+        <rdfs:label xml:lang="en">cpt_f37123f7-a669-44e6-b56e-36be6a4c3efa_order_6c7d8cba-9a37-4475-9cb2-8674e0ddb4c0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/f8adce90-210c-4ac6-85e7-1ea4e7113a4b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/f8adce90-210c-4ac6-85e7-1ea4e7113a4b">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000140"/>
+        <rdfs:label xml:lang="en">encounter_practitioner_1234567_patient_7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21</rdfs:label>
+        <obo:ARG_0000365 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">15-08-2008</obo:ARG_0000365>
+        <obo:ARG_0000495 xml:lang="en">f8adce90-210c-4ac6-85e7-1ea4e7113a4b</obo:ARG_0000495>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/1234567"/>
+        <ro:has_participant rdf:resource="http://purl.obolibrary.org/obo/arg/i/7d5dd5e5-7205-4a23-9ca2-d18b0ed60b21"/>
+        <obo:OBI_0000299 rdf:resource="http://purl.obolibrary.org/obo/arg/i/a738d1f0-1a05-48f5-b328-bac3c42798a6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/arg/i/fec59684-82c4-463b-9e15-6dd6d5a39286 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/arg/i/fec59684-82c4-463b-9e15-6dd6d5a39286">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ARG_0000006"/>
+        <rdfs:label xml:lang="en">order_fec59684-82c4-463b-9e15-6dd6d5a39286</rdfs:label>
+        <ro:has_part rdf:resource="http://purl.obolibrary.org/obo/arg/i/30cded3c-90ea-479a-9350-052d59078bda"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1964) http://owlapi.sourceforge.net -->
+

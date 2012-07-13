@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/arg/cptcode/cpt-subclasses.owl" uri="cpt-subclasses.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/arg/icdcode/icd9cm-subclasses.owl" uri="icd9cm-subclasses.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/arg/clinical_instances.owl" uri="clinical_instances.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-dcelements-public-1.5.owl" uri="vivo/vivo-dcelements-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-event-public-1.5.owl" uri="vivo/vivo-event-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-skos-public-1.5.owl" uri="vivo/vivo-skos-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-pws-public-1.5.owl" uri="vivo/vivo-pws-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/dateTimeValuePrecision.rdf" uri="vivo/dateTimeValuePrecision.rdf"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-bibo-public-1.5.owl" uri="vivo/vivo-bibo-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-scires-public-1.5.owl" uri="vivo/scires-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/geopolitical.tbox.ver1.1-11-18-11.n3" uri="vivo/geopolitical.tbox.ver1.1-11-18-11.n3"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/documentStatus.rdf" uri="vivo/documentStatus.rdf"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-foaf-public-1.5.owl" uri="vivo/vivo-foaf-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/vivo-dcterms-public-1.5.owl" uri="vivo/vivo-dcterms-public-1.5.owl"/>
+    <uri id="User Edited Redirect" name="http://vivoweb.org/ontology/core" uri="vivo/vivo-core-public-1.5.owl"/>
+    <uri id="User Entered Import Resolution" name="http://vivoweb.org/ontology/core/bfo-extension" uri="vivo/mapping/vivo-bfo-1.5.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1342189245074" name="http://purl.obolibrary.org/obo/arg/clinical_instances.owl" uri="clinical_instances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1342189245074" name="http://purl.obolibrary.org/obo/clinical_module.owl" uri="clinical_module.owl"/>
+    </group>
+</catalog>
